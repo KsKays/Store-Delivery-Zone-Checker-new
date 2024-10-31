@@ -11,7 +11,7 @@ const PORT = process.env.PORT;
 const frontend_url = process.env.FRONTEND_URL;
 
 const corsOption = {
-  origin: "http://localhost:5173",
+  origin: frontend_url,
 };
 
 //Dev Mode
