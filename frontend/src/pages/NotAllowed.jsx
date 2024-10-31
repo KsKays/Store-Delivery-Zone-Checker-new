@@ -20,7 +20,7 @@ const NotAllowed = () => {
         return prevCounter - 1;
       });
     }, 1000); // Update counter every second
-
+    //ssss
     // Cleanup function to clear intervals when component unmounts or dependencies change
     return () => {
       clearInterval(timer);
